@@ -1,0 +1,799 @@
+## intent:affirm_good
+- Accept
+- Cool
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- yes skip
+- yes cancel
+- yes go ahead
+- yes do it
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- confirm
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- ok fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- of course
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok bot
+- ok, I behave now
+- ok, I understood
+- ok, bot
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- yres
+- ys
+- yup
+- yyeeeh
+- Okay cool
+- ok..
+- considering
+- sounds good!
+- good.
+- Good 
+- I'm good
+- im feeling good
+- very good
+- I'm very good 
+- I'm very good thanks
+- I am very good thanks
+- I am feeling very good
+- im cool
+- I am cool thanks
+- great
+- I am great
+- I'm great Thanks
+- Awesome
+- I'm awesome
+- I am awesome thanks
+- wonderful
+- I'm wonderful
+- I am wonderful thanks
+- amazing!
+- awesome
+- I'm awesome
+- I am awesome thanks
+- happy
+- Im happy thanks
+- I am happy
+- I am perfect thanks
+- amayzing
+- I am amazing thanks
+- I'm doing just great
+- I'm doing just great thanks
+- I'm doing good
+- i am doing good thanks
+- I'm fine
+- I'm doing fine
+- i am doing fine thanks
+- I'm great thanks
+- not bad
+- not so bad
+- not bad thanks
+- I am great thanks
+- I am awesome
+- I'm awesome thanks
+- I have never been better
+- never been better
+- I've never been better
+- i am doing just fine
+
+## intent:affirm_bad
+- that's bad
+- bad really bad
+- that's lame
+- that's not good
+- that's too bad
+- well too bad
+- horrific
+- that was terrible
+- that was horrible
+- bad idea
+- very bad
+- it's too bad
+- that was not good
+- that was awful
+- oh that's not good
+- that is bad
+- too bad
+- this is not good
+- not a good one
+- so lame
+- this is too bad
+- abysmal
+- it is too bad
+- that's really bad
+- horrible
+- really bad
+- this is bad
+- bad
+- not so good
+- terrible
+- it's not good
+- not good enough
+- so bad
+- it's bad
+- pretty bad
+- it's really bad
+- not good
+- that's terrible
+- that was bad
+- I'm afraid it's bad
+- it's so bad
+- it's not so good
+- no good
+- it is bad
+- no it's bad
+- bad girl
+- that's not good enough
+- it's very bad
+- that was lame
+- not too good
+- bad very bad
+- sad
+- so sad
+- I am very sad
+- very sad
+- unhappy
+- bad
+- very bad
+- I'm bad
+- I am very bad
+- I am feeling badly
+- I'm feeling very bad
+- awful
+- I'm awful
+- I am awful
+- not very good
+- extremely sad
+- I am extremely sad
+- I am sad
+- I am feeling sad
+- I'm having a bad day
+- I'm unhappy
+- I want to cry
+- I'm not happy
+- I am upset
+- I am depressed
+- I'm grieving
+- I'm very sad
+- I'm feeling awful
+- I'm feeling terrible
+- I'm not very good
+- extremely sad
+- terrible
+- I'm terrible
+- I'm no so good
+- I'm not fine
+- I am feeling low
+- I am bad
+- I am not good
+- I am not so Great
+- I am horrible
+
+## intent:bye
+- Bye
+- Bye bye
+- adios
+- adios?
+- bye
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- catch you later
+- ciao
+- cya
+- farewell
+- good bye
+- goodbye
+- goodbye.
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
+- Exit
+- Close this talk
+- byr
+
+<!-- ## intent:canthelp
+- I think you cant help me
+- and that's it?
+- and you call yourself bot company? pff
+- do you get anything?
+- exit
+- exit now
+- hey, you promised to contact me, but nobody did, I really need to finish that car insurance bot!!!!
+- hm i don't think you can do what i want
+- i guess you can't help me then
+- nothing else?
+- ok i guess you can't help me
+- ok then you cant help me
+- ok, but that doesnt help me
+- stop
+- stop go back
+- stop this conversation
+- that was shit, you're not helping
+- that's not what i want
+- this conversation is not really helpful
+- this is leading to nothing
+- you can't help me
+- you can't help me with what i need
+- you cannot help me with what I want
+- you cant help me
+- quit
+- that does not help -->
+
+## intent:deny
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not giving you my email address
+- I'm not going to give it to you
+- I dont want to give you
+- I dont want to give my details  
+- I dont want to give you claim id
+- I dont want to give my first name
+- I dont want to give my last name
+- I dont want to give my npi
+- I dont want to reveal 
+- I dont want to reveal my name
+- I dont want to reveal my first name
+- I dont want to reveal my last name
+- I dont want to reveal my npi
+- I wont tell you
+- I wont tell you my details
+- I wont tell you my first name
+- I wont tell you my last name
+- I wont tell you my name
+- I wont tell you the npi
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- nothing
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i don't want to give you my email
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- no
+- no :(
+- no I dont want
+- no I haven't decided yet if I want to sign up
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- I do not need help installing
+- I don't wanna tell the name of my company
+- stop it, i do not care!!!
+- none of them
+- I don't agree
+
+## intent:explain
+- why should I give you
+- why should I give you claim id?
+- why should I give you my name
+- why should I give you my first name
+- why should I give you my last name
+- why should I give you NPI?
+- why do you want this?
+- why do you want me to give this?
+- can you elaborate
+- could you explain why you need that
+- could you tell me more
+- explain it to me
+- explain that
+- i want more information
+- i would like to know why you need that
+- please elaborate
+- please explain
+- why do you need to know that
+- why is that necessary
+- give me more details
+- why
+- why do you need that?
+- why is this needed?
+- why do u need it?
+- is it needed?
+- is it mandatory?
+- is it compulsory?
+- how come?
+- why is it required?
+- why are u asking?
+- what are u asking for?
+
+## intent:greet
+- HELLO
+- HEY
+- HEllo
+- HI
+- HI bot
+- Hallo
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello bot
+- Hello bot
+- Hello!
+- Hey
+- Hey bot
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi bot
+- Hi bot!
+- Hi bot
+- Hi man
+- Hi bot
+- Hi bot..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- ey boss
+- greet
+- greetings
+- hallo
+- hallo bot
+- halloo
+- halloooo
+- halo
+- halo bot
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello bot
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello bot
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey bot
+- hey ther
+- hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, bot!
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi pal!
+- hi bot
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
+- helleo
+
+## intent:thank
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you bot
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks bot
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for forum link, I'll check it out
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+- thanks for your information
+- thanks f
+
+## intent:cancel
+- nevermind forget about it
+- nothing just forget it
+- no just cancel
+- no cancel cancel
+- sorry cancel
+- disregard
+- forget
+- i want to cancel
+- cancel everything
+- annul
+- cancel that one
+- cancelled
+- now cancel
+- cancel all
+- cancel now
+- forget about it
+- skip it
+- don't do that
+- just forget it
+- skip skip skip
+- just stop it
+- no cancel everything
+- forget that
+- no just cancel it
+- cancel that cancel that
+- i said cancel
+- cancel it
+- no stop
+- cancel all that
+- i said cancel it
+- forget about that
+- abort
+- i said forget it
+- nothing cancel
+- no cancel this
+- I said cancel cancel
+- just cancel it
+- i want to cancel it
+- cancel the whole thing
+- can you cancel that
+- can you cancel it
+- just forget about it
+- forget this
+- stop it
+- stop
+- just forget
+- discard
+- i would like to cancel
+- disregard that
+- cancel my request
+- so cancel
+- cancel request
+- cancel
+- cancel all this
+- cancel this request
+- skip
+- forget it nevermind
+- dismiss
+- cancel it cancel it
+- but can you cancel it
+- dismissed
+- do nothing
+- ignore it
+- never mind
+- never mind cancel it

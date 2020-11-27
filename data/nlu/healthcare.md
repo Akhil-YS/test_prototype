@@ -1,0 +1,249 @@
+## intent:claim_status_inquiry
+- claim status
+- my claim status
+- claim status by ID
+- claim status by claim id
+- claim status inquiry
+- status of a claim
+- I want to know the status of a claim
+- I want to know the status of a claim by claim id
+- I want to enquire a claim status
+- I would like to know the claim status
+- could you tell my claim status?
+- Please fetch my claim status
+- What is the Status on the Claim?
+- what is the status on my claim?
+- What's the update on the claim?
+- view my claim status
+- I want to view my claim status
+- Any update on my claim Adjudication
+- Did you work on my claim request?
+- Are you reviewing my claim request?
+- Did my claim get denied?
+- Did my claim get Approved?
+- Did my claim get Approved or denied?
+- Is this claim Approved or not?
+- Rejection reason for claim
+- Why is claim rejected?
+- Reason for rejecting my claim
+- Can I have the summary for the claim
+- Is my claim processed?
+- Is my claim paid?
+- Can you confirm my payment confirmation?
+- Hey why was my claim rejected
+- Hey, my claim got rejected
+- Hey my claim rejected
+- Hey why is my claim get rejected
+- Hey why was my claim denied
+- Hey, my claim got denied
+- Hey my claim denied
+- Hey why is my claim get denied
+- Hi my claim is denied
+- Hi my claim got rejected
+- Hello my claim got rejected
+- Hello my claim got denied
+- Why did my claim got rejected?
+- Why was my claim rejected?
+- My claim got rejected
+- Claim rejected
+- Submitted claim got rejected
+- Patient’s claim got rejected
+- My last claim got rejected
+- I see my claim got rejected
+- How did my claim get rejected?
+- What was the reason for my claim rejection?
+- Reason for my clam rejection?
+- Why did my claim get denied?
+- Why did my claim got denied?
+- Why was my claim denied?
+- My claim got denied
+- Claim denied
+- Submitted claim got denied
+- Patient’s claim got denied
+- My last claim got denied
+- I see my claim got denied
+- How did my claim get denied?
+- What was the reason for my claim denial?
+- Reason for my clam denial?
+- Can you check why my claim got rejected
+- What was the reject reason for my claim denial?
+- I got to know my claim got rejected
+- learned about my claim rejection
+- Learned that my claim got rejected
+- I came to know my denial reason
+- Want to know claim denial reason
+- Came to know about the rejection reason
+- Want to know about the rejection reason
+- reject reason
+- reason for rejection
+- tell me about my rejected claim
+- please tell me why is my claim rejected
+
+## intent:rri_payment
+- Payments
+- Fetch more information for payments
+- I go for payments
+- More info on payments
+- Get more information related to payments
+- I choose payments
+- Let us go with payments
+- Payments info
+- More info for payments
+- Pull More info for payments
+- Payment summary
+- Details on payments
+- More payment info
+- Payment details
+
+## intent:rri_preauthorization
+- Preauthorization
+- Fetch more information for Preauthorization
+- I go for Preauthorization
+- More info on Preauthorization
+- Get more information related to Preauthorization
+- I choose Preauthorization
+- Let us go with Preauthorization
+- Preauthorization info
+- More info for Preauthorization
+- Pull More info for Preauthorization
+- Preauthorization summary
+- Details on Preauthorization
+- More Preauthorization info
+- Preauthorization details
+
+## intent:rri_pbi
+- Benefit eligibility
+- Fetch more information for Benefit eligibility
+- I go for Benefit eligibility
+- More info on Benefit eligibility
+- Get more information related to Benefit eligibility
+- I choose Benefit eligibility
+- Let us go with Benefit eligibility
+- Benefit eligibility info
+- More info for Benefit eligibility
+- Pull More info for Benefit eligibility
+- Benefit eligibility summary
+- Details on Benefit eligibility
+- More Benefit eligibility info
+- Benefit eligibility details
+
+## intent:aci_partially_paid
+- Partially Paid
+- Fetch more information for Partially Paid
+- I go for Partially Paid
+- More info on Partially Paid
+- Get more information related to Partially Paid
+- I choose Partially Paid
+- Let us go with Partially Paid
+- Partially Paid info
+- More info for Partially Paid
+- Pull More info for Partially Paid
+- Partially Paid summary
+- Details on Partially Paid
+- More Partially Paid info
+- Partially Paid details
+
+## intent:aci_adjustment
+- Adjustments
+- Fetch more information for Adjustments
+- I go for Adjustments
+- More info on Adjustments
+- Get more information related to Adjustments
+- I choose Adjustments
+- Let us go with Adjustments
+- Adjustments info
+- More info for Adjustments
+- Pull More info for Adjustments
+- Adjustments summary
+- Details on Adjustments
+- More Adjustments info
+- Adjustments details
+
+## intent:aci_overpaid
+- Overpaid
+- Fetch more information for Overpaid
+- I go for Overpaid
+- More info on Overpaid
+- Get more information related to Overpaid
+- I choose Overpaid
+- Let us go with Overpaid
+- Overpaid info
+- More info for Overpaid
+- Pull More info for Overpaid
+
+<!-- ## intent:rri_payment_deniedcharge
+- denied charge
+- Denied Charge or Non-covered Charge
+- why was my claim rejected for Denied Charge or Non-covered Charge
+- Hey, my claim got rejected for Denied Charge or Non-covered Charge
+- my claim rejected due to Denied Charge or Non-covered Charge
+- Hey why is my claim get rejected for Denied Charge or Non-covered Charge
+- Hey why was my claim for Denied Charge or Non-covered Charge
+- Hey, my claim got denied for Denied Charge or Non-covered Charge
+- my claim denied for Denied Charge or Non-covered Charge  
+- Hey why is my claim get denied for Denied Charge or Non-covered Charge  
+- my claim is denied for Denied Charge or Non-covered Charge  
+- Hi my claim got rejected for Denied Charge or Non-covered Charge  
+- my claim got rejected for Denied Charge or Non-covered Charge  
+- Hello my claim got denied for Denied Charge or Non-covered Charge  
+- Why did my claim got rejected for Denied Charge or Non-covered Charge?
+- Why was my claim rejected for Denied Charge or Non-covered Charge?
+- My claim got rejected for Denied Charge or Non-covered Charge  
+- Claim rejected for Denied Charge
+- Claim rejected for Non-covered Charge  
+- Claim rejected for Denied Charge or Non-covered Charge  
+- Submitted claim got rejected due to for Denied Charge or Non-covered Charge  
+- Patient’s claim got rejected due to for Denied Charge or Non-covered Charge  
+- My last claim got rejected due to Denied Charge or Non-covered Charge  
+- I see my claim got rejected due to Non-covered Charge  
+- How did my claim get rejected due to Non-covered Charge  
+
+## intent:rri_payment_procedurecode
+- Procedure code for services rendered
+- My claim rejected due to Procedure code for services rendered
+- Claim rejected due to Procedure code for services rendered
+- Rejected due to Procedure code for services rendered
+- Claim got rejected due to Procedure code for services rendered
+- Serviced are rendered for the procedure
+- Denial of services claimed for procedures
+- Procedure code serviced rendered
+- Why are procedures code for services rendered?
+- Why are my services to procedure code rendered?
+- Why is service to the procedure rendered?
+- Why are procedure code for services Denied?
+- Why are my services to procedure code denied?
+- Why is service to the procedure denied?
+- I need more information on the rejection Procedure code for services rendered procedure
+- Need more information Procedure code for services rendered
+- Fetch more details on Procedure code for services rendered
+- Need explanation on Procedure code for services rendered
+- Explain my rejection reason Procedure code for services rendered
+- Explain my claim rejection Procedure code for services rendered
+
+## intent:rri_payment_combinedprocedurecodes
+- One or more originally submitted procedure codes have been combined
+- My claim is rejected due to one or more originally submitted procedure codes have been combined
+- More procedure codes have been combined
+- One or more procedures have been combined
+- One or more same procedures have been combined
+- The submitted procedure one or more procedures have been combined
+- The combines submitted one or more procedures have been combined
+- One or more procedure codes have been combined
+- More than one procedure codes have been combined
+- One or more or procedure codes have been combines
+- Claim got rejected due to one or more procedure codes
+- Claim is rejected due to procedures combined
+- Procedures combined
+- Procedure codes combined
+- Claim is denied due to procedure codes combined
+- Claim is denied due to one or more procedure codes combined
+- I need more information on the rejection procedure codes have been combined
+- Need more information procedure codes combined
+- Fetch more details on procedure codes have been combined
+- Need explanation on procedure codes have been combined
+- Explain my rejection reason procedure codes have been combined
+- Explain my claim rejection procedure codes have been combined -->
+
+<!-- ## intent: reject reasone general
+- patient benefit inqury
+- I would like to inquire about eligibility benefit -->

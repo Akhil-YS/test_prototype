@@ -1,0 +1,60 @@
+date_picker = {
+    "blocks": [
+        {
+            "type": "section",
+            "text": {
+                "text": "Make a bet on when the world will end:",
+                "type": "mrkdwn"
+            },
+            "accessory": {
+                "type": "datepicker",
+                "initial_date": "2019-05-21",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select a date"
+                }
+            }
+        }
+    ]
+}
+obj = {
+    "text": "Hey, looks like the claim has been rejected at the payments house. Would you like to fetch more information on this rejection.",
+    "button_type": "vertical",
+    "buttons": [
+        {
+            "title": "Preauthorization",
+            "payload": "/rri_preauthorization"
+        },
+        {
+            "title": "Patient Benefit Info",
+            "payload": "/rri_pbi"
+        }
+    ]
+}
+
+asdf = {
+    "text": "How can I help you today?",
+    "button_type": "vertical",
+    "buttons": [
+        {
+            "title": "Prescription",
+            "payload": "/1_prescription"
+        },
+        {
+            "title": "Grant access",
+            "payload": "/2_grant_access"
+        },
+        {
+            "title": "Registrations",
+            "payload": "/3_registration"
+        },
+        {
+            "title": "Approve refills",
+            "payload": "/4_approve_refills"
+        },
+        {
+            "title": "Profile",
+            "payload": "/5_profile"
+        }
+    ]
+}

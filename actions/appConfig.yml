@@ -1,0 +1,5 @@
+db:
+    host: '10.0.3.48'
+    user: 'rasaadmin'
+    password: 'RaSa@!24'
+    database: 'healthcare_chatbot'

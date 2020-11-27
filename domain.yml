@@ -1,0 +1,326 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- affirm_good
+- affirm_bad
+- deny
+- thank:
+    triggers: utter_noworries
+- bye:
+    triggers: utter_bye
+- explain
+- cancel
+- inform
+- home
+- restart_conversation
+- smalltalk:
+    triggers: respond_smalltalk
+- claim_status_inquiry
+- user_asks_fresh_details
+- user_asks_old_details
+- rri_payment
+- rri_preauthorization
+- rri_pbi
+# - rri_admin
+- aci_over_paid
+- aci_partially_paid
+- aci_adjustment
+# - rri_payment_deniedcharge
+# - rri_payment_procedurecode
+# - rri_payment_combinedprocedurecodes
+# - request_human: {"triggers": "action_human_handoff"}
+entities:
+- name
+- npi
+- claim_id
+- fresh_request
+slots:
+  claim_id:
+    type: unfeaturized
+    auto_fill: false
+  claim_sub_type:
+    type: categorical
+    values:
+    - before
+    - after
+  exist_in_DB:
+    type: categorical
+    values:
+    - yes
+    - no
+  csi_more_details:
+    type: categorical
+    values: 
+    - yes
+    - no
+  csi_category_code:
+    type: unfeaturized
+  rri_code:
+    type: unfeaturized
+  fresh_request:
+    type: unfeaturized
+    auto_fill: false
+  provider_first_name:
+    type: unfeaturized
+    auto_fill: false
+  provider_last_name:
+    type: unfeaturized
+    auto_fill: false
+  provider_npi:
+    type: unfeaturized
+    auto_fill: false
+  request_recency:
+    type: categorical
+    values:
+    - not_recent
+    - recent
+  subscriber_first_name:
+    type: unfeaturized
+    auto_fill: false
+  subscriber_id:
+    type: unfeaturized
+    auto_fill: false
+  subscriber_last_name:
+    type: unfeaturized
+    auto_fill: false
+responses:
+  utter_welcome_message:
+  - custom:
+    image: https://youngsoft.com/wp-content/uploads/sites/2/2020/07/yourgsoft_25yrs_logo1.png
+  
+  utter_welcome_message_1:
+  - text: Hello! I am your Virtual Assistant. Powered by Youngsoft.
+  utter_welcome_help:
+  - buttons:
+    - payload: /claim_status_inquiry
+      title: Claim Status Inquiry
+    text: How may I help you today?
+  utter_greet:
+  - text: Hey! How are you?
+  utter_greet_name:
+  - text: Hi, {name}! How are you?
+  - text: Hello, {name}! How are you?
+  utter_noworries:
+  - text: You're welcome!
+  - text: I'm happy to help.
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+  - text: No worries!
+  utter_great:
+  - text: Great! 👍
+  - text: That's great! 🙌
+  - text: Awesome! 🎉
+  utter_user_good:
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+  utter_bye:
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  - text: Bye bye!
+  - text: See you soon!
+  - text: Bye-bye!
+  - text: Till next time!
+  - text: Bye.
+  utter_thumbsup:
+  - text: 👍
+  - text: Okay.
+  - text: Got it.
+  utter_deny:
+  - text: Okay.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
+  utter_react_negative:
+  - text: 😕
+  - text: 😞
+  - text: 😥
+  - text: 😢
+  utter_react_positive:
+  - text: 😄
+  - text: 😊
+  - text: 😉
+  - text: 😃
+  - text: 😁
+  - text: 🙂
+  utter_what_help:
+  - buttons:
+    - payload: /claim_status_inquiry
+      title: Claim Status Inquiry
+    text: Ok, what can I help you with?
+  utter_affirm_what_help:
+  - text: Sure! please tell me.
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
+  utter_cheer_up2:  
+  - text: 'Here is something to cheer you up:'
+    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/hT_nvWreIhg" } }
+  utter_did_that_help:
+  - buttons:
+    - payload: /affirm_good
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Did that help you?
+  utter_deny_anything_else:
+  - buttons:
+    - payload: /claim_status_inquiry
+      title: Inquire another Claim Status
+    text: Is there anything else I can help you with?
+  # utter_anything_else:
+  # - buttons:
+  #   - payload: /claim_status_inquiry
+  #     title: Inquire Claim Status
+  #   - payload: /patient_benefit_inquiry
+  #     title: Inquire Patient Benefits
+  #   text: Hope that was helpful! Is there anything else I can help you with?
+  utter_anything_else:
+  - buttons:
+    - payload: /claim_status_inquiry
+      title: Inquire Claim Status
+    text: Hope that was helpful! Is there anything else I can help you with?
+  # utter_csi_anything_else:
+  # - buttons:
+  #   - payload: /claim_status_inquiry
+  #     title: Inquire another Claim Status
+  #   - payload: /patient_benefit_inquiry
+  #     title: Inquire Patient Benefits
+  #   text: Hope that was helpful! Is there anything else I can help you with?
+  utter_csi_anything_else:
+  - buttons:
+    - payload: /claim_status_inquiry
+      title: Inquire another Claim Status
+    text: Hope that was helpful! Is there anything else I can help you with?
+  # utter_pbi_anything_else:
+  # - buttons:
+  #   - payload: /patient_benefit_inquiry
+  #     title: Inquire another Patient Benefits
+  #   - payload: /claim_status_inquiry
+  #     title: Inquire Claim Status
+  #   text: Hope that was helpful! Is there anything else I can help you with?
+  utter_cancelled:
+  - text: Ok, Cancelled.
+  - text: Cancelled!
+  utter_default:
+  - text: Oh! I am sorry about addressing your concern. Would you like to send an
+      email to our support team?
+  utter_ask_rephrase:
+  - text: Can you rephrase the question?
+  utter_conversation_end_text:
+  - text: Your conversation has been ended, Thank you!
+  utter_start_new_conversation:
+  - text: <button onclick='restartConversation()' class='chatbotMenuChips'>Start a
+      new conversation</button>
+  utter_can_do:
+  - text: Sure! 👍
+  - text: I shall surely help you about it. 👍
+  - text: Certainly, I'll help you with it.
+  utter_details_message:
+  - text: Help me with few details.
+  - text: May I have a few details please.
+  - text: Please provide the following details.
+  utter_processing:
+  - text: Fetching status...
+  utter_wait_more_details:
+  - text: Please wait while we fetch more details for you..
+  utter_ask_pbi_refetch:
+  - buttons:
+    - payload: /affirm_good
+      title: Fetch fresh status
+    - payload: /deny
+      title: Show latest available
+    text: Hey, looks like you have already inquired for patient-benefits for the ID-{subscriber_id}.
+      Would you like to view the latest available status or request to fetch a fresh
+      status?
+  utter_ask_csi_refetch:
+  - text: Do you want to make a fresh status request?
+    custom:
+      payload: quickReplies
+      data:
+      - title: Yes
+        payload: /affirm_good
+      - title: No
+        payload: /deny
+  utter_ask_claim_id:
+  - text: Please enter the Claim ID you would like to know the status for.
+  utter_ask_provider_first_name:
+  - text: May I have your first name?
+  utter_ask_subscriber_first_name:
+  - text: May I have the subscriber's first name?
+  utter_ask_provider_last_name:
+  - text: And your last name?
+  utter_ask_subscriber_last_name:
+  - text: May I have the subscriber's last name?
+  utter_ask_provider_npi:
+  - text: Please enter NPI
+  utter_ask_continue_form:
+  - text: Shall we proceed filling the necessary details?
+    custom:
+      payload: quickReplies
+      data:
+      - title: Yes
+        payload: /affirm_good
+      - title: No
+        payload: /deny
+  utter_ask_cancel_form:
+  - text: I might not be able to perform the claim status inquiry. Are you sure you
+      want to skip this?
+    custom:
+      payload: quickReplies
+      data:
+      - title: Yes
+        payload: /affirm_good
+      - title: No
+        payload: /deny
+  utter_explain_claim_id:
+  - text: Claim ID is essential to fetch claim status details.
+  utter_explain_provider_first_name:
+  - text: We need your first name to proceed.
+  utter_explain_subscriber_first_name:
+  - text: We need the subscriber's first name to proceed.
+  utter_explain_provider_last_name:
+  - text: We need your last name to proceed.
+  utter_explain_subscriber_last_name:
+  - text: We need the subscriber's last name to proceed.
+  utter_explain_provider_npi:
+  - text: We need your NPI to proceed further and process your request.
+  utter_slots_values:
+  - text: "I am going to run a PBI using the following parameters:\n - Subscriber\
+      \ ID: {subscriber_id}\n - Provider First Name: {provider_first_name}\n - Provider\
+      \ Last Name: {provider_last_name}\n - Provider NPI: {provider_npi}\n - Subscriber\
+      \ First Name: {subscriber_first_name}\n - Subscriber Last Name: {subscriber_last_name}"
+  utter_checking_db:
+  - text: Checking local DB
+  utter_not_in_db:
+  - text: Claim details not available in local DB. Need more details.
+actions:
+- respond_smalltalk
+- action_greet_user
+- action_set_form_slots_null
+- action_store_user_details
+- action_explain_form
+- utter_noworries
+- utter_bye
+- action_db_check
+- action_csi_fetch
+- action_csi_refetch
+# - action_rri_payment1
+# - action_rri_payment2
+# - action_rri_set_code
+# - action_rri_buttons [Rename to below]
+- action_csi_more_details_buttons
+# For csi intent -> csi_category_code/db_check_type [Route 1]
+- action_csi_set_category_code
+- action_csi_fetch_more_details_r1
+# For intent -> rsc [Route 2]
+# - action_csi_more_details_set_code [Renamed to below]
+- action_csi_set_sub_category_code
+- action_csi_fetch_more_details_r2
+
+forms:
+- csi_db_check_form
+- csi_provider_names_form
